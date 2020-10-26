@@ -28,3 +28,19 @@ const step4 = {
   // Only show loading if loading
   // Display cards if not loading and not game over
 };
+
+const step5 = {
+  // conditionally show the next question button.
+  // add stuff to checkAnswer function:
+  //  1. check if game is not over and if not store the value of the answer button click in a variable.
+  // 2. Check if the chosen answer matches the correct answer.
+  // 3. if it's correct increment the score.
+  // 4. Save the answer in the array for user answers.
+  // 5. create an answer Object. from the answer object type
+  // 6. update the setUserAnswers state. Spread the new object into the array.
+  // Next Question  function.
+  // 1. move on to next question if not the last question.
+  // 2 . if true set game over to true
+  // 3. if not true set the number to the next question number
+  // Fix up types for the callback and the userAnswer. Need to adjust the disabled button to be a boolean check
+};
