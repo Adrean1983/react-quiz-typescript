@@ -19,3 +19,12 @@ const step3 = {
   // Need to setup a type for the API called Question. Setup a further type called QuestionState which extends Question which adds answers as a property.
   // Map over the api call and return an object which contains each questions object from API as well as the list of shuffled answers. Need to make a shuffleArray function in the Utils which is passed in the incorrect answers and the correct answers
 };
+
+const step4 = {
+  // Set the type for questions use state. The type is already in the API file. create a type in App.js for userAnswers. Call it AnswerObject. It has four things properties.
+  // Create the startTrivia function. It does the fetch data function as well as resetting much of the state. It should call this function when start button is clicked.
+  // Conditionally display start button depending if game over or limit of questions have been reached.
+  // Only show the score if not in the gameover mode.
+  // Only show loading if loading
+  // Display cards if not loading and not game over
+};
