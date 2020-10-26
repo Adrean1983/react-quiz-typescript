@@ -4,7 +4,7 @@ type Props = {
   question: string;
   answers: string[];
   callback: any;
-  userAnswer: Boolean;
+  userAnswer: any;
   questionNr: number;
   totalQuestions: number;
 };
